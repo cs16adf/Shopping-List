@@ -1,0 +1,75 @@
+header {
+  text-align: center;
+  width: 33%;
+  height: 5em;
+  margin-left: 33%;
+  margin-right: 33%;
+  background: #512DA8;
+}
+
+body {
+  background: #607D8B;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  color: #FFF;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container {
+  width: 33%;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding-bottom: 3em;
+  background: #D1C4E9;
+  color: #727272;
+}
+
+.add-item {
+  text-align: center;
+  padding-top: 2em;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+input {
+  width: 20em;
+}
+
+button {
+  background-color: #212121;
+  border-radius: 10px;
+  border-style: none;
+  margin-right: 1em;
+  float: right;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
